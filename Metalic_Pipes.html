@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shlok Enterprise - Non-Metallic Pipes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="product.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-color': 'var(--primary-color)',
+                        'secondary-color': 'var(--secondary-color)',
+                        'accent-color': 'var(--accent-color)',
+                        'dark-color': 'var(--dark-color)',
+                        'light-color': 'var(--light-color)'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <!-- Logo -->
+      <div class="nav-logo">
+        <img src="logo/logo.jpeg" alt="Shlok Enterprise Logo">
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="product.html" class="nav-link active">Products</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <svg viewBox="0 0 24 24">
+          <path d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+   <section class="products-section">
+    <h2>Our Products</h2>
+    <p class="text-gray-600 max-w-2xl mx-auto mt-4 mb-8">Explore our comprehensive range of high-quality non-metallic pipes and fittings designed for optimal performance and reliability</p>
+    
+    <div class="filter-buttons">
+      <a href="product.html"><button>Industrial Valves</button></a>
+      <button class="active">Non Metallic Pipes Fitting</button>
+      <a href="Non_Metalic.html"><button>Non Metallic Fabrication Works</button></a>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <a href="#" class="block w-full h-full">
+          <img src="logo/productimg/pipe1.jpg" alt="PVC Pipes" class="object-contain">
+          <p>PVC Pipes</p>
+        </a>
+      </div>
+
+      <div class="product-card">
+        <a href="#" class="block w-full h-full">
+          <img src="logo/productimg/pipe2.jpg" alt="HDPE Pipes" class="object-contain">
+          <p>HDPE Pipes</p>
+        </a>
+      </div>
+
+      <div class="product-card">
+        <a href="#" class="block w-full h-full">
+          <img src="logo/productimg/pipe3.jpg" alt="UPVC Fittings" class="object-contain">
+          <p>UPVC Fittings</p>
+        </a>
+      </div>
+      
+      <div class="product-card">
+        <a href="#" class="block w-full h-full">
+          <img src="logo/productimg/pipe4.jpg" alt="CPVC Pipes" class="object-contain">
+          <p>CPVC Pipes</p>
+        </a>
+      </div>
+      
+      <div class="product-card">
+        <a href="#" class="block w-full h-full">
+          <img src="logo/productimg/pipe5.jpg" alt="PPR Pipes" class="object-contain">
+          <p>PPR Pipes</p>
+        </a>
+      </div>
+      
+      <div class="product-card">
+        <a href="#" class="block w-full h-full">
+          <img src="logo/productimg/pipe6.jpg" alt="HDPE Fittings" class="object-contain">
+          <p>HDPE Fittings</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark-color text-white py-12 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div>
+          <h3 class="text-xl font-bold mb-4 border-b border-gray-700 pb-2">About Us</h3>
+          <p class="text-gray-300 mb-4">Shlok Enterprise is one of the best stockist & service provider since 2007 for industries, offering high-quality valves and non-metallic pipes.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-300 hover:text-white transition duration-300">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-gray-300 hover:text-white transition duration-300">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-gray-300 hover:text-white transition duration-300">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="text-gray-300 hover:text-white transition duration-300">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="text-xl font-bold mb-4 border-b border-gray-700 pb-2">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-gray-300 hover:text-white transition duration-300">Home</a></li>
+            <li><a href="about.html" class="text-gray-300 hover:text-white transition duration-300">About Us</a></li>
+            <li><a href="product.html" class="text-gray-300 hover:text-white transition duration-300">Products</a></li>
+            <li><a href="contact.html" class="text-gray-300 hover:text-white transition duration-300">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-xl font-bold mb-4 border-b border-gray-700 pb-2">Contact Info</h3>
+          <ul class="space-y-3 text-gray-300">
+            <li class="flex items-start">
+              <svg class="w-5 h-5 mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+              <span>123 Industrial Area, Ahmedabad, Gujarat, India</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+              <span>info@shlokenterprise.com</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+              </svg>
+              <span>+91 98765 43210</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400">
+        <p>&copy; 2025 Shlok Enterprise. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('show');
+    });
+    
+    // Add animation classes to product cards
+    document.addEventListener('DOMContentLoaded', function() {
+      const productCards = document.querySelectorAll('.product-card');
+      productCards.forEach((card, index) => {
+        card.classList.add('opacity-0');
+        setTimeout(() => {
+          card.classList.add('animate-fadeIn');
+          card.classList.remove('opacity-0');
+        }, 100 * index);
+      });
+    });
+  </script>
+</body>
+</html>
